@@ -217,13 +217,7 @@ module.exports = class Owoify extends Plugin {
             usage: '',
             executor: () => ({ send: true, result: owoify() })
         });
-        powercord.api.commands.registerCommand({
-            command: 'fuckmydiscord',
-            description: `owoify all of your messages`,
-            executor: () => {
-                console.log("cum")
-            }
-        });
+
     }
 
     pluginWillUnload() {
