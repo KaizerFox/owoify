@@ -1,7 +1,6 @@
 const { Plugin } = require('powercord/entities');
 const { getModule, React } = require('powercord/webpack');
 const { inject, uninject } = require('powercord/injector');
-const owoify = require('owoify-js').default;
 
 module.exports = class Owoify extends Plugin {
     async startPlugin() {
